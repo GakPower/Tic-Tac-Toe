@@ -1,4 +1,36 @@
-.grid {
-	-fx-border-width: 5px;
-	-fx-border-color: red;
+.rightBottom{
+	-fx-border-width: 3px;
+	-fx-border-color: transparent red red transparent;
+}
+.rightBottomLeft{
+	-fx-border-width: 3px;
+	-fx-border-color: transparent red red red;
+}
+.leftBottom{
+	-fx-border-width: 3px;
+	-fx-border-color: transparent transparent red red;
+}
+.topRightBottom{
+	-fx-border-width: 3px;
+	-fx-border-color: red red red transparent;
+}
+.topRightBottomLeft{
+	-fx-border-width: 3px;
+	-fx-border-color: red red red red;
+}
+.topBottomLeft{
+	-fx-border-width: 3px;
+	-fx-border-color: red transparent red red;
+}
+.topRight{
+	-fx-border-width: 3px;
+	-fx-border-color: red red transparent transparent;
+}
+.topRightLeft{
+	-fx-border-width: 3px;
+	-fx-border-color: red red transparent red;
+}
+.topLeft{
+	-fx-border-width: 3px;
+	-fx-border-color: red transparent transparent red;
 }

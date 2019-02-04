@@ -132,4 +132,19 @@ class Board
 	boolean isGameOver(){
 		return gameOver;
 	}
+
+	void setGameOver(boolean bool){
+		gameOver = bool;
+	}
+
+	boolean noCellsLeft()
+	{
+		for (Field field: fields)
+		{
+			if (field.getValue().equals(" ")){
+				return false;
+			}
+		}
+		return true;
+	}
 }
